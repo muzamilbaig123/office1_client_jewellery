@@ -1116,6 +1116,17 @@ footer ul li a {
     position: relative;
     left: -32px;
 }
+.up-black-micro{
+    width: 40px;
+    height: 60px;
+    background-color: #000;
+    position: relative;
+    top: 27px;
+    left: -4px;
+    rotate: 6deg;
+
+}
+
 @media screen and (min-width: 1920px) {
     .header-container,
     main, footer {
