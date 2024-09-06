@@ -48,9 +48,8 @@ nav .logo img {
     width: 30%;
     text-align: right;
 }
-.cart i {
-    font-size: 32px;
-    font-weight: 700;
+.cart img {
+    width: 32px;
     cursor: pointer;
 }
 .product-main-section {
@@ -104,19 +103,29 @@ nav .logo img {
 .product-details {
     background-color: #fff;
     padding: 20px;
-    width: 48%;
+    width: 40%;
 }
 #productName {
-    font-size: 38.49px;
+    font-size:  40px;
     font-weight: 700;
     line-height: 38.49px;
     letter-spacing: -0.02em;
     text-align: left;
-    margin: 10px 0px;
+    margin: 16px 0px;
+}
+.header-reviews{
+    margin: 10px 0px !important ;
+    justify-content: flex-start !important;
+}
+.headerstar{
+    font-size: 18px !important;
+}
+.myrating-header{
+    padding-left: 0px;
 }
 .save-free-charms {
     color: #4B4B4B;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.01em;
@@ -136,7 +145,7 @@ nav .logo img {
     font-size: 24px;
     color: #000;
     font-family: Acumin Pro;
-    font-size: 22.43px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26.92px;
     text-align: left;
@@ -159,13 +168,14 @@ nav .logo img {
     text-align: center;
 }
 .buynow-shoppay-other {
-    font-size: 16.82px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 16.82px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
+    margin: 10px 0px;
 }
 .charms-selection {
     display: flex;
@@ -179,7 +189,7 @@ nav .logo img {
     align-items: center;
     border: 1px solid #ccc;
     cursor: pointer;
-    background-color: #E4E3DE;
+    background: #f6f6f6;
     width: 141.59px;
     height: 185.05px;
     padding: 58.88px 26.64px 12.62px 25.23px;
@@ -208,7 +218,6 @@ nav .logo img {
 }
 .add-to-cart-btn,
 .checkout-btn {
-    margin-top: 20px;
     padding: 10px;
     background-color: #000;
     color: #fff;
@@ -216,14 +225,9 @@ nav .logo img {
     cursor: pointer;
     width: 448.6px;
     height: 64.49px;
-    top: 554.55px;
-    left: 841.4px;
-    padding: 22.45px 0px 20.04px 0px;
-    gap: 0px;
-    border-radius: 1.4px 0px 0px 0px;
-    opacity: 0px;
     font-weight: 700;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 .checkout-btn {
     background-color: #5A31F5;
@@ -233,11 +237,12 @@ nav .logo img {
 }
 /* c-muz end */
 .last-prod-cont-left {
-    width: 48%;
+    width: 44%;
     padding: 20px;
 }
 .customers-recomeded {
     margin-top: 10px;
+    font-size: 14px;
 }
 .customers-recomeded span {
     background-color: #000;
@@ -248,6 +253,7 @@ nav .logo img {
     gap: 5.61px;
     border-radius: 3px;
     padding: 3px 8px;
+    font-size: 14px;
 }
 .details-item {
     border-bottom: 1px solid #dfdcdc;
@@ -281,8 +287,11 @@ nav .logo img {
     font-weight: bold;
 }
 .last-prod-cont-right {
-    width: 48%;
+    width: 44%;
     padding: 20px;
+    position: relative;
+    top: -24px;
+    left: 52px;
 }
 .ship-life-30-pre-cont {
     margin: 10px 0px;
@@ -290,9 +299,11 @@ nav .logo img {
     justify-content: flex-start;
     align-items: center;
     gap: 2px;
+    position: relative;
+    left: -4px;
 }
 .ship-life-30-pre-cont .box {
-    background-color: #E7E7E7;
+    background: #f6f6f6;
     width: 105px;
     top: 771.84px;
     left: 844.21px;
@@ -303,7 +314,7 @@ nav .logo img {
     margin: 0px 4px;
 }
 .ship-life-30-pre-cont p {
-    font-size: 13.15px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 15.79px;
     text-align: center;
@@ -350,18 +361,19 @@ main {
     padding: 20px;
 }
 .intro-charm-cont .left h4 {
-    font-size: 14.45px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
     text-align: left;
     color: #4B4B4B;
     margin: 20px 0px;
     padding: 10px 0px;
+    text-transform: uppercase;
 }
-.intro-charm-cont .left h1 {
-    font-size: 40px;
+.intro-charm-cont .left h2 {
+    font-size: 38px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 38px;
     letter-spacing: -0.01em;
     text-align: left;
     color: #000;
@@ -369,7 +381,7 @@ main {
     padding: 10px 0px;
 }
 .intro-charm-cont .left p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 27.36px;
     letter-spacing: -0.01em;
@@ -389,7 +401,7 @@ main {
 }
 .video-container video {
     width: 100%;
-    height: 470px;
+    height: 518px;
     display: block;
     cursor: pointer;
 }
@@ -418,7 +430,7 @@ main {
     align-items: center;
     gap: 20px;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 .review-box {
     border: 1px solid #ddd;
@@ -468,13 +480,13 @@ main {
     padding: 10px 0px;
 }
 .text-group .one h1 {
-    font-size: 181.82px;
+    font-size: 180px;
     font-weight: 500;
     line-height: 181.82px;
     text-align: center;
 }
 .text-group .two h2 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.01em;
@@ -489,12 +501,14 @@ main {
 }
 .reason-box {
     width: 360px;
-    height: 513.25px;
+    height: 492px;
     border: 1.45px solid rgba(0, 0, 0, 1);
     border-radius: 2px;
+   
+
 }
 .img-box {
-    height: 256.625px;
+    height: 228px;
     align-content: center;
 }
 .reason-box img {
@@ -547,15 +561,16 @@ main {
 .italian-charm-personal {
     width: 100%;
     height: 1200px;
-    background-color: rgba(244, 244, 244, 1);
+    background: #f4f4f4;
+
     align-content: center;
 }
 .personal-heading {
     text-align: center;
     margin: 40px 0px;
 }
-.personal-heading h1 {
-    font-size: 40px;
+.personal-heading h2 {
+    font-size: 38px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.01em;
@@ -652,7 +667,7 @@ main {
     background-color: #fff;
     align-content: center;
 }
-.how-does-work h2 {
+.how-does-work h2:first-child {
     font-size: 14px;
     font-weight: 700;
     line-height: 19.15px;
@@ -660,8 +675,9 @@ main {
     text-align: center;
     margin-top: 80px;
     color: #666;
+    text-transform: uppercase;
 }
-.how-does-work h1 {
+.work-h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
@@ -682,7 +698,7 @@ main {
     background: rgba(242, 242, 242, 1);
 }
 .work-container .box h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: -0.01em;
@@ -766,14 +782,15 @@ main {
 }
 .dummy-product .box {
     width: 360px;
-    height: 635px;
+    height: 548px;
     background: rgba(249, 249, 249, 1);
     text-align: center;
     border: 2.41px solid rgba(228, 228, 228, 1)
 }
 .dummy-product .box>img {
     width: 96%;
-    height: 335px;
+    height: 259px;
+    object-fit: cover;
 }
 .dummy-reviews-sec {
     margin-top: 0px !important;
@@ -791,7 +808,7 @@ main {
     font-weight: 400;
 }
 .dummy-product .box h3 {
-    font-size: 24.06px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 28.88px;
     letter-spacing: -0.01em;
@@ -823,11 +840,12 @@ main {
     background-color: rgba(242, 242, 242, 1);
     align-content: center;
 }
-.verified-reviews h1 {
-    font-size: 40px;
+.verified-reviews h2 {
+    font-size: 38px;
     font-weight: 700;
     text-align: center;
     padding: 60px 0px;
+    text-transform: uppercase;
 }
 .rating-section {
     width: 36%;
@@ -870,7 +888,8 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 80px 0;
+    margin: 80px auto;
+    width: 94%;
 }
 .verified-rev-img img {
     width: 176px;
@@ -892,7 +911,7 @@ main {
     text-align: center;
 }
 .verified-last-cont .box p {
-    font-size: 15.43px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     padding: 20px 0px;
@@ -914,8 +933,8 @@ main {
     width: 60%;
     margin: 0 auto;
 }
-.faq-container h1 {
-    font-size: 80px;
+.faq-container h2 {
+    font-size: 38px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -934,9 +953,14 @@ main {
     padding: 6px;
 }
 .faq-question {
-    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 31.5px;
+}
+.faq-question span{
+    font-size: 18px;
+    padding-left: 8px;
 }
 .faq-answer {
     max-height: 0;
@@ -946,7 +970,7 @@ main {
     margin-top: 10px;
 }
 .faq-answer p {
-    padding: 6px;
+    padding-left: 14px;
 }
 .faq-toggle {
     font-size: 24px;
@@ -966,7 +990,7 @@ main {
 /* footer */
 .footer-container {
     width: 100%;
-    height: 383.19px;
+    height: 300px;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -986,10 +1010,12 @@ footer .four {
     width: 34%;
     background: #f2f2f2;
     height: 100%;
-    align-content: center;
-    padding: 20px;
+    padding: 0px 12px;
 }
-
+.four h2:first-child{
+    position: relative;
+    left: -12px;
+}
 footer .four .email-form {
     display: flex;
     align-items: center;
@@ -1019,12 +1045,12 @@ footer .four .submit-btn {
 footer .four p{
     font-size: 13px;
     font-weight: 400;
-    margin: 18px 0px 18px 16px;
+    margin: 18px 0px 18px 20px;
 }
 footer .four h3{
 font-size: 14px;
 font-weight: 400;
-margin: 18px 0px 18px 16px;
+margin: 18px 0px 18px 20px;
 }
 footer ul{
     padding-left: 20px;
@@ -1045,12 +1071,13 @@ footer h2 {
     letter-spacing: 2.799999952316284px;
     text-align: left;
     color: #000;
-    margin: 18px 0px 18px 16px;
+    margin: 18px 0px 18px 34px;
     text-transform: uppercase;
 }
 footer ul li {
     list-style-type: none;
-    padding: 10px 0px;
+    padding: 8px 14px;
+    
 }
 footer ul li a {
     text-decoration: none;
@@ -1064,12 +1091,10 @@ footer ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     border-top: 1px solid rgba(18, 18, 18, 0.08)
 }
-.footer-bootom .left {
-    margin-left: 20px;
-}
+
 .footer-bootom .left h2 {
     font-size: 11px;
     font-weight: 400;
@@ -1082,9 +1107,17 @@ footer ul li a {
     height: 24px;
     margin-left: 4px;
 }
+.facebookli{
+    position: relative;
+    left: -14px;
+}
+.instagramli{
+    position: relative;
+    left: -32px;
+}
 @media screen and (min-width: 1920px) {
     .header-container,
-    main {
+    main, footer {
         width: 100em;
         margin: 0 auto;
     }
