@@ -104,6 +104,8 @@ nav .logo img {
     background-color: #fff;
     padding: 20px;
     width: 40%;
+    position: relative;
+    top: -18px;
 }
 #productName {
     font-size:  40px;
@@ -191,12 +193,11 @@ nav .logo img {
     cursor: pointer;
     background: #f6f6f6;
     width: 141.59px;
-    height: 185.05px;
-    padding: 58.88px 26.64px 12.62px 25.23px;
+    height: 160px;
+    padding: 20px 26.64px 12.62px 25.23px;
     gap: 0px;
-    border: 0.7px 0px 0px 0px;
-
 }
+
 .fill-charmslot {
     background-color: #fff;
 }
@@ -290,7 +291,7 @@ nav .logo img {
     width: 44%;
     padding: 20px;
     position: relative;
-    top: -24px;
+    top: -48px;
     left: 52px;
 }
 .ship-life-30-pre-cont {
