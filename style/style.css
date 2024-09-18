@@ -1126,11 +1126,3 @@ footer ul li a {
     rotate: 6deg;
 
 }
-
-@media screen and (min-width: 1920px) {
-    .header-container,
-    main, footer {
-        width: 100em;
-        margin: 0 auto;
-    }
-}
