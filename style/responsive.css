@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 1920px) {
     .header-container,
     main, footer {
@@ -60,5 +59,180 @@
     .review-box{
         width: 40%;
         height: auto;
+    }
+    .italian-charme-personal-heading{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .italian-charme-personal-heading .box{
+        width: 45%;
+        height: auto;
+    }
+    .work-container{
+        flex-direction: column;
+    }
+    .dummy-product{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .dummy-product-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dummy-product .box {
+        width: 50%;
+    }
+    .verified-last-cont {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .verified-reviews{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer-container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .footer-container .one, .footer-container .two, .footer-container .three, .footer-container .four{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .footer-container .four{
+        width: 50%;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+    .footer-container .one h2{
+        text-align: center;
+    }
+    .footer-container .two h2{
+        text-align: center;
+    }
+    .footer-container .three h2{
+        text-align: center;
+    }
+    .footer-container .four h2{
+        text-align: center;
+    }
+    footer ul{
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 974px) {
+    .product-container{
+        flex-direction: column;
+    }
+    .main-img-gallery{
+        width: 70%;
+    }
+    .product-details{
+        width: 70%;
+    }
+    .last-prod-cont-left{
+        width: 70%;
+    }
+    .last-prod-cont-right {
+        width: 70%;
+        margin-top: 55px;
+    }
+    .headerlast-container div img {
+        width: 100px;
+    }
+    .intro-charm-cont{
+        flex-direction: column;
+    }
+    .introd-charm-brac {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 50px;
+        margin: 0 auto;
+        background-color: #F9F9F9;
+        align-content: center;
+    }
+    .intro-charm-cont .left{
+        width: 70%;
+    }
+    .last-intro-charm-reviews{
+        flex-direction: column;
+    }
+    .review-box{
+        width: 40%;
+        height: auto;
+    }
+    .italian-charme-personal-heading{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .italian-charme-personal-heading .box{
+        width: 45%;
+        height: auto;
+    }
+    .work-container{
+        flex-direction: column;
+    }
+    .dummy-product{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .dummy-product-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dummy-product .box {
+        width: 50%;
+    }
+    .verified-last-cont {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .verified-reviews{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer-container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .footer-container .one, .footer-container .two, .footer-container .three, .footer-container .four{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .footer-container .four{
+        width: 50%;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+    .footer-container .one h2{
+        text-align: center;
+    }
+    .footer-container .two h2{
+        text-align: center;
+    }
+    .footer-container .three h2{
+        text-align: center;
+    }
+    .footer-container .four h2{
+        text-align: center;
+    }
+    footer ul{
+        position: relative;
+        left: 10px;
     }
 }
