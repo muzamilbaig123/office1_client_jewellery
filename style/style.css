@@ -380,6 +380,7 @@ main {
     color: #000;
     margin: 20px 0px;
     padding: 10px 0px;
+    text-transform: uppercase;
 }
 .intro-charm-cont .left p {
     font-size: 18px;
@@ -547,6 +548,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow: scroll;
 }
 .down-skin {
     width: 100%;
@@ -559,6 +561,7 @@ main {
     align-items: center;
     position: relative;
     top: 80px;
+    overflow-x: scroll;
 }
 .italian-charm-personal {
     width: 100%;
@@ -663,6 +666,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    overflow: scroll;
 }
 /* section five */
 .how-does-work {
@@ -1130,5 +1134,4 @@ footer ul li a {
     top: 27px;
     left: -4px;
     rotate: 6deg;
-
 }

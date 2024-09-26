@@ -235,4 +235,150 @@
         position: relative;
         left: 10px;
     }
+    .personal-heading h2{
+        font-size: 32px;
+        margin-top: 140px;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+    .main-img-gallery{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }   
+    .thumbnail-container{
+        width: 100%;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .thumbnail-container img{
+        width: 22%;
+    }
+    #mainImage{
+        border: none;
+    }
+    .product-details{
+        width: 100%;
+    }
+    .last-prod-cont-left {
+        width: 100%;
+    }
+    .last-prod-cont-right {
+        width: 100%;
+        margin-left: -60px;
+    }
+    .ship-life-30-pre-cont .box {
+        width: 23%;
+    }
+    .hide-muz{
+        display: none;
+    }
+    .intro-charm-cont .left{
+        width: 100%;
+        align-items: center;
+    }
+    .intro-charm-cont .left h4{
+        text-align: center;
+    }
+    .intro-charm-cont .left h2{
+        text-align: center;
+    }
+    .intro-charm-cont .left p{
+        text-align: center;
+    }
+    .intro-charm-cont .right{
+        width: 100%;
+    }
+    .last-intro-charm-reviews{
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    .text-group .one h1 {
+        font-size: 140px;
+    }
+    .text-group .two h2{
+        line-height: 36px;
+        font-size: 32px;
+    }
+    .reason-box-container{
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    .reason-box{
+        width: 80%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .down-skin {
+        height: 42px;
+        transform: rotate(-9deg);
+    }
+    .up-black{
+        height: 42px;
+        position: relative;
+        top: 40px;
+        transform: rotate(6deg);
+    }
+    .up-black p{
+        font-size: 10px;
+    }
+    .down-skin p{
+        font-size: 12px;
+    }
+    .personal-heading{
+        margin-top: 40px;
+    }
+    .c-p-c-m-e-i-container {
+        gap: 20px;
+    }
+    .italian-charme-personal-heading .box{
+        width: 60%;
+    }
+    .fiftyperson{
+        height: 42px;
+        font-size: 12px;
+        gap: 12px;
+        margin-top: 40px;
+    } 
+    .dummy-product .box {
+        width: 64%;
+    }
+    .rating-section{
+        width: 80%;
+    }
+    .verified-rev-img img {
+        width: 28%;
+    }
+    .verified-rev-img{
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .faq-container {
+        width: 88%;
+    }
+    .footer-container{
+        flex-direction: column-reverse;
+    }
+    .footer-container .four {
+        width: 90%;
+    }
+    .footer-container .three{
+        width: 90%;
+    }
+    .footer-container .two{
+        width: 90%;
+    }
+    .footer-container .one{
+        width: 90%;
+    }
+    .footer-bootom{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
